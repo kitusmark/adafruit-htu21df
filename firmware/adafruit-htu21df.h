@@ -24,7 +24,7 @@
     #endif
 #endif
 
-#include "Wire.h"
+//#include "Wire.h"
 
 #define HTU21DF_I2CADDR       0x40
 #define HTU21DF_READTEMP      0xE3
