@@ -14,12 +14,15 @@
   Ported by Marc Cobler to the Particle Platform
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
-#if ((ARDUINO >= 100) || defined (SPARK))
- #include "Arduino.h"
+#if defined (SPARK)
+    #include "application.h"
 #else
- #include "WProgram.h"
-#endif
+    #if ((ARDUINO >= 100)
+     #include "Arduino.h"
+    #else
+     #include "WProgram.h"
+    #endif
+
 #include "Wire.h"
 
 #define HTU21DF_I2CADDR       0x40
