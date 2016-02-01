@@ -22,6 +22,7 @@
     #else
      #include "WProgram.h"
     #endif
+#endif
 
 #include "Wire.h"
 
