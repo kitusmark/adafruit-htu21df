@@ -1,6 +1,6 @@
 {
     "name": "adafruit-htu21df",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Marc Cobler <electronicslab@icloud.com>",
     "license": "BSD License",
     "description": "Arduino library for the HTU21D-F sensors in the Adafruit shop"
